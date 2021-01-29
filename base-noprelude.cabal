@@ -35,10 +35,9 @@ source-repository head
     location: https://github.com/hvr/base-noprelude.git
 
 library
-    build-depends:       base ==4.12.0.0
+    build-depends:       base ==4.14.1.0
     default-language:    Haskell2010
 
-    -- re-exported modules copied from base-4.12.0.0's exposed-modules
     reexported-modules:
       , Control.Applicative
       , Control.Arrow
